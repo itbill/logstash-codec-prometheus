@@ -1,12 +1,11 @@
 Gem::Specification.new do |s|
   s.name          = 'logstash-codec-prometheus'
-  s.version       = '0.5.0'
+  s.version       = '0.1.0'
   s.licenses      = ['Apache-2.0']
-  s.summary       = 'Reads `prometheus` formatted lines'
-  s.description   = 'This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program'
-  s.homepage      = 'https://github.com/yesmarket/logstash-codec-prometheus'
-  s.authors       = ['Ryan Bartsch']
-  s.email         = 'rbartsch@adam.com.au'
+  s.summary       = 'A logstash codec plugin to decode documents in prometheus exposition format.'
+  s.description   = 'A logstash codec plugin to decode documents in prometheus exposition format. The encoder has not been implemented yet. The project is forked from https://github.com/yesmarket/logstash-codec-prometheus but the parser logic has been rewritten and the output format is not compatible with the original version.'
+  s.homepage      = 'https://github.com/itbill/logstash-codec-prometheus'
+  s.authors       = ['Bill Lam']
   s.require_paths = ['lib']
 
   # Files
